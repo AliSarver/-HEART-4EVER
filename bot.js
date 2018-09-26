@@ -9,7 +9,7 @@ const http2 = require('http2');
 
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '_';
+const prefix = 'h';
 const discord_token = "token";
 client.login(discord_token);
 client.on('ready', function() {
@@ -53,7 +53,7 @@ client.on('message', function(message) {
 	const mess = message.content.toLowerCase();
 	const args = message.content.split(' ').slice(1).join(' ');
 
-	if (mess.startsWith(prefix + 'h')) {
+	if (mess.startsWith(prefix + 'شغل')) {
 		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
 		// if user is not insert the URL or song title
 		if (args.length === 0) {
