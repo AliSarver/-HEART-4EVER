@@ -263,4 +263,4 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }
    }); 
    
-	client.login("توكن بوتك");
+client.login(process.env.BOT_TOKEN);
