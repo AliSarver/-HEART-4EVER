@@ -9,7 +9,7 @@ const http2 = require('http2');
 
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = 'H';
+const prefix = 'h';
 const discord_token = "token";
 client.login(discord_token);
 client.on('ready', function() {
@@ -34,7 +34,7 @@ var now_playing = [];
 
 client.on('ready',  () => {
 
-client.user.streaming(`💘 العقل السليم في البعد عن الحريم`,'https://www.twitch.tv/hix')
+client.user.setGame(`💓 العقل السليم فالبعد عن الحريم`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
@@ -436,6 +436,7 @@ function search_video(query, cb) {
 function isYoutube(str) {
 	return str.toLowerCase().indexOf('youtube.com') > -1;
 }
+
 
 
 
