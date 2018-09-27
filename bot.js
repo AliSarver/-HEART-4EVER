@@ -34,7 +34,7 @@ var now_playing = [];
 
 client.on('ready',  () => {
 
-client.user.setGame(`💓 العقل السليم فالبعد عن الحريم`,'https://www.twitch.tv/hix')
+client.user.setGame(`💓 العقل السليم في البعد عن الحريم`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
