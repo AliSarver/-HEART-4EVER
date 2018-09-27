@@ -34,7 +34,7 @@ var now_playing = [];
 
 client.on('ready',  () => {
 
-client.user.Plaiyng(`❦ العقل السليم في البعد عن الحريم`,'https://www.twitch.tv/hix')
+client.user.playing(`العقل السليم في البعد عن الحريم`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
