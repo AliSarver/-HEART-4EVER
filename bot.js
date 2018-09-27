@@ -34,7 +34,7 @@ var now_playing = [];
 
 client.on('ready',  () => {
 
-client.user.setGame(`4EVER`,'https://www.twitch.tv/hix')
+client.user.setGame(`4 EVER`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
