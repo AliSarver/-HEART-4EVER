@@ -253,7 +253,7 @@ client.on('message', function(message) {
 	const args = message.content.split(' ').slice(1).join(' ');
 
 	if (mess.startsWith(prefix + 'play')) {
-		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **Must BE at a voice channel**');
+		if (!message.member.voiceChannel) return message.channel.send('💡 Play Commands:\n\n\n``wplay <song title>``-playes the first result from Yotube\n\n\n``wplay <URL>``-plays the provided song, playlist, or stream\n\n\n``wplay playlist <name>``-plays the provided playlist');
 		// if user is not insert the URL or song title
 		if (args.length == 0) {
 			let play_info = new Discord.RichEmbed()
